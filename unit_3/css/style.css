@@ -1,0 +1,49 @@
+h1 {
+	font-family: "Playfair Display", monospace;
+	color: #009c3b;
+	font-size: 24px
+	text-align: center;
+}
+
+h2 {
+	font-family: "Playfair Display", monospace;
+	color: #002776;
+	font-size: 20px
+	width: 300px; margin: 20px; padding: 20px;
+	display: block;
+	float: right;
+}
+
+h3 {
+	font-family: "Playfair Display", monospace;
+	color: #009c3b;
+	font-size: 16px
+}
+
+p {
+	font-family: "Montserrat", monospace;
+	color: #002776;
+	font-size: 12px
+}
+
+
+#slogan, #explanation {
+	display: inline-block;
+	float: right;
+}
+
+
+#nazare {
+	max-width: 100%
+	float: left;
+}
+
+#me {
+	max-width: 15%
+}
+
+#aboutme {
+	width: 150px; margin: 20px; padding: 20px;
+	display: block;
+	float: left;
+}
