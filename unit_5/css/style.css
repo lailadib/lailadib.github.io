@@ -1,0 +1,78 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR);
+
+h1 {
+	font-family: "Merriweather";
+	color: #009c3b;
+	font-size: 24px
+}
+
+h2 {
+	font-family: "Marriweather";
+	color: #002776;
+	font-size: 20px
+}
+
+h3 {
+	font-family: "Marriweather";
+	color: #009c3b;
+	font-size: 16px
+}
+
+p {
+	font-family: "Noto Sans KR";
+	color: #002776;
+	font-size: 12px
+}
+
+header {
+	background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+	text-align: center;
+}
+
+nav { 
+	background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px; 
+    width: 500px;
+    text-align: center;
+}
+
+aside {
+	background-color: #FFC675;
+    border: 1px black solid;
+    padding: 20px; width: 300px;
+    text-align: center;
+}
+
+article { 
+	background-color: #E89C6C;
+    border: 1px black solid;
+    padding: 20px;
+    width: 300px; margin: 20px;
+
+}
+
+footer {
+	background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+    text-align: center;
+}
+
+div { 
+	background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+
+#nazare {
+	max-width: 100%
+}
+
+#me {
+	max-width: 75%
+}
