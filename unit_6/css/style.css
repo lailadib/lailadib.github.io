@@ -26,51 +26,59 @@ p {
 }
 
 header {
-	background-color: #FFED74;
-    border: 1px black solid;
     padding: 20px;
 	text-align: center;
 }
 
+#mainnav {
+	width: 100%;
+}
+
 nav { 
-	background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px; 
-    width: 500px;
+    padding: 20px;
     text-align: center;
+    clear: both;
 }
 
 aside {
-	background-color: #FFC675;
-    border: 1px black solid;
     padding: 20px; width: 300px;
     text-align: left;
+    float: left;
 }
 
 article { 
-	background-color: #E89C6C;
-    border: 1px black solid;
     padding: 20px;
     width: 300px; margin: 20px;
+    float: left;
+	display: inline-block;
 
 }
 
 footer {
-	background-color: #FF957E;
-    border: 1px black solid;
     padding: 20px;
     text-align: center;
+    clear: both;
 }
 
-div { 
-	background-color: #FFE2B8;
-    border: 1px black solid;
+.column { 
     padding: 20px;
+    width: 30%;
+    float: left;
+    clear: both;
+    display: inline-block;
 }
 
+#posts {
+	content:"";
+	display: table;
+	clear: both;
+}
 
 #nazare {
 	max-width: 100%
+	float: left;
+	display: inline-block;
+
 }
 
 #me {
