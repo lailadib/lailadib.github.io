@@ -1,0 +1,201 @@
+@import url(https://fonts.googleapis.com/css?family=Merriweather);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR);
+
+body {
+    font: 14px;
+}
+
+#title {
+    font-family: "Merriweather";
+    color: #009c3b;
+    font-size: 2em;
+    padding: .7em .7em .2em .7em;
+}
+
+h1 {
+	font-family: "Merriweather";
+	color: #FFFFFF;
+	font-size: 1.8em;
+    padding: .4em;
+    text-align: center;
+}
+
+.mainnav {
+    font-family: "Marriweather";
+    color: #FFFFFF;
+    font-size: 1.5em;
+    padding: .4em .6em .4em .6em;
+}
+
+a {
+    font-family: "Marriweather";
+    color: #FFFFFF;
+    font-size: 1.5em;
+    padding: .1em;
+}
+
+h2 {
+	font-family: "Marriweather";
+	color: #002776;
+	font-size: 1.5em;
+    padding: .7em;
+}
+
+h3 {
+	font-family: "Marriweather";
+	color: #009c3b;
+	font-size: 1.2em;
+    padding: 1em;
+}
+
+p {
+	font-family: "Noto Sans KR";
+	color: #002776;
+	font-size: 1em;
+    line-height: 1.7em;
+    padding: 0 1em 1em 1em;
+}
+
+header {
+	text-align: center;
+    padding: .2em;
+}
+
+
+nav { 
+    padding: 1.3em;
+    text-align: center;
+    clear: both;
+    display: block;
+    background-color: #002776;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    padding: 0.3em 0 0.8em 0;
+}
+
+article { 
+    padding: 1em;
+    max-width: 28%; 
+    min-height: 24em; 
+    margin: 1em 1em 3em 1em;
+    float: left;
+	display: inline-block;
+    background-color: rgba(0, 156, 59, .65);
+
+}
+
+#confused { 
+    font-weight: bold; }
+
+#two_column {
+    padding: 2em;
+}
+
+#left {
+    padding: 1em;
+    float: left;
+    width: 30%;
+    line-height: 1.7em;
+
+}
+
+#right {
+    padding: 2em;
+    float: right;   
+    width: 60%;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+.column {
+    width: 25%
+    float: left;
+}
+
+#two_column2 {
+    padding: 1em;
+}
+
+#left2 {
+    float: left;
+    width: 65.3%;
+}
+
+.about {
+    margin: 0 0 3em 0;
+}
+
+.green {
+    color: #009c3b;
+    font-weight: bold;
+}
+
+#right2 {
+    padding: 1em;
+    width: 30%; 
+    float: right;
+    height: 30em;
+    text-align: center;
+}
+
+#chat {
+    color: #009c3b;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+#email {
+    color: #002776;
+}
+
+#love {
+    color: #FFFFFF;
+    padding: 1em 0 0 0;
+}
+
+footer {
+    padding: 0.5em;
+    text-align: center;
+    clear: both;
+    display: block;
+    background-color: #002776;
+    width: 100%;
+}
+
+@media screen and (max-device-width: 768px) and (max-device-height: 1024px) and (-webkit-device-pixel-ratio: 1) {
+
+    #left {
+    z-index: 80;    
+    }
+    
+
+    #right {
+    z-index: 10;
+    }
+
+    .column {
+    float: none;
+    display: block;
+    width: 100%    
+    }
+
+   #two_column2, #right2, #left2 {
+     display: none;   
+    }
+
+}
+
+
+
