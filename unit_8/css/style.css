@@ -88,7 +88,8 @@ article {
 }
 
 #confused { 
-    font-weight: bold; }
+    font-weight: bold; 
+}
 
 #two_column {
     padding: 2em;
@@ -174,10 +175,17 @@ footer {
     width: 100%;
 }
 
-@media screen and (max-device-width: 768px) and (max-device-height: 1024px) and (-webkit-device-pixel-ratio: 1) {
+@media screen and (min-width: 321px) and (max-width: 768px) /*and (-webkit-device-pixel-ratio: 1)*/ {
+
+    #two_column {
+    width: 80%;
+    height: 20em;
+    position: relative;
+    }
 
     #left {
-    z-index: 80;    
+    z-index: 80;
+    text-align: center;   
     }
     
 
@@ -185,10 +193,31 @@ footer {
     z-index: 10;
     }
 
+    #right, #left {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    }
+
     .column {
     float: none;
     display: block;
-    width: 100%    
+    width: 100%;    
+    }
+
+    #two_column2, #right2, #left2 {
+    display: none;   
+    }
+
+}
+
+@media screen and (max-width: 320px) /*and (-webkit-device-pixel-ratio: 2)*/ {
+
+    .column {
+    float: none;
+    display: block;
+    width: 100%;
     }
 
    #two_column2, #right2, #left2 {
