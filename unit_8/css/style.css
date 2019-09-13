@@ -78,13 +78,12 @@ img {
 
 article { 
     padding: 1em;
-    max-width: 28%; 
-    min-height: 24em; 
+    width: 28%; 
+    height: 24em; 
     margin: 1em 1em 3em 1em;
     float: left;
 	display: inline-block;
     background-color: rgba(0, 156, 59, .65);
-
 }
 
 #confused { 
@@ -119,14 +118,8 @@ article {
     height: 0;
 }
 
-.column {
-    width: 25%
-    float: left;
-}
-
 #two_column2 {
     padding: 1em;
-}
 
 #left2 {
     float: left;
@@ -186,6 +179,7 @@ footer {
     #left {
     z-index: 80;
     text-align: center;   
+    background-color: #FFFFFF;
     }
     
 
@@ -200,28 +194,20 @@ footer {
     bottom: 0;
     }
 
-    .column {
+    article {
     float: none;
     display: block;
     width: 100%;    
-    }
-
-    #two_column2, #right2, #left2 {
-    display: none;   
     }
 
 }
 
 @media screen and (max-width: 320px) /*and (-webkit-device-pixel-ratio: 2)*/ {
 
-    .column {
+    article {
     float: none;
     display: block;
     width: 100%;
-    }
-
-   #two_column2, #right2, #left2 {
-     display: none;   
     }
 
 }
