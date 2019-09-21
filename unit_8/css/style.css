@@ -1,6 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Merriweather);
 @import url(https://fonts.googleapis.com/css?family=Noto+Sans+KR);
 
+* {
+    box-sizing: border-box;
+/*    margin: 0;
+    padding: 0;*/
+}
+
 body {
     font: 14px;
 }
@@ -9,14 +15,14 @@ body {
     font-family: "Merriweather";
     color: #009c3b;
     font-size: 2em;
-    padding: .7em .7em .2em .7em;
+    padding: .7% .7% .2% .7%;
 }
 
 h1 {
 	font-family: "Merriweather";
 	color: #FFFFFF;
 	font-size: 1.8em;
-    padding: .4em;
+    padding: .4%;
     text-align: center;
 }
 
@@ -24,28 +30,28 @@ h1 {
     font-family: "Marriweather";
     color: #FFFFFF;
     font-size: 1.5em;
-    padding: .4em .6em .4em .6em;
+    padding: 1% 2% 1% 2%;
 }
 
 a {
     font-family: "Marriweather";
     color: #FFFFFF;
     font-size: 1.5em;
-    padding: .1em;
+    padding: 1%;
 }
 
 h2 {
 	font-family: "Marriweather";
 	color: #002776;
 	font-size: 1.5em;
-    padding: .7em;
+    padding: 1%;
 }
 
 h3 {
 	font-family: "Marriweather";
 	color: #009c3b;
 	font-size: 1.2em;
-    padding: 1em;
+    padding: 2%;
 }
 
 p {
@@ -53,12 +59,12 @@ p {
 	color: #002776;
 	font-size: 1em;
     line-height: 1.7em;
-    padding: 0 1em 1em 1em;
+    padding: 0 2% 2% 2%;
 }
 
 header {
 	text-align: center;
-    padding: .2em;
+    padding: 1%;
 }
 
 nav { 
@@ -72,17 +78,21 @@ nav {
 
 img {
     max-width: 100%;
-    padding: 0.3em 0 0.8em 0;
-}
+/*    padding: 0.3em 0 0.8em 0;
+*/}
 
 article { 
-    padding: 1em;
-    width: 28%; 
-    height: 24em; 
-    margin: 1em 1em 3em 1em;
+    padding: 1%;
+    width: 31%; 
+    min-height: 24em; 
+    margin: 1% 1% 3% 1%;
     float: left;
 	display: inline-block;
     background-color: rgba(0, 156, 59, .65);
+}
+
+#santos-odebrecht, #palpatine, #desmatamento, #me {
+    padding: 2%;
 }
 
 #confused { 
@@ -90,11 +100,11 @@ article {
 }
 
 #two_column {
-    padding: 2em;
+    padding: 2%;
 }
 
 #left {
-    padding: 1em;
+    padding: 1%;
     float: left;
     width: 30%;
     line-height: 1.7em;
@@ -102,7 +112,7 @@ article {
 }
 
 #right {
-    padding: 2em;
+    padding: 2%;
     float: right;   
     width: 60%;
 }
@@ -118,6 +128,7 @@ article {
 
 #duas_colunas {
     padding: 1em;
+}
 
 #sinistra {
     float: left;
@@ -169,38 +180,68 @@ footer {
 @media screen and (max-width: 1199px) /*and (-webkit-device-pixel-ratio: 2)*/ {
 
     article {
+    padding: 2%;
     float: none;
     display: block;
-    width: 100%;
+    width: 60%;
+    margin: 2% auto;
+    text-align: center;
     }
 
 }
 
 
-@media screen and (max-width: 1023) /*and (-webkit-device-pixel-ratio: 1)*/ {
+@media screen and (max-width: 1023px) /*and (-webkit-device-pixel-ratio: 1)*/ {
 
-/*    #two_column {
-    width: 80%;
-    height: 20em;
-    position: relative;
-    }*/
+    #two_column {
+    width: 100%;
+    padding: 0; 
+    }
 
     #left {
-    z-index: 80;
-    text-align: center;   
-    background-color: #FFFFFF;
+        float: none;
+        width: 80%;
+        margin: auto;
+        display: block;
+        position: relative;
+        background-color: #FFFFFF;
+        margin-top: -5em;
     }
     
 
     #right {
-    z-index: 10;
+        float: none;
+        width: 100%;
+        margin: auto;   
     }
 
+
     article {
-    float: none;
-    display: block;
-    width: 100%;
-    height: 18em;    
+        float: none;
+        display: block;
+        width: 60%;
+    }    
+
+    #sinistra { 
+        float: none;
+        width: 80%; 
+        margin: auto;
+    }
+    
+    #destra {
+        float: none;
+        display: block;
+        width: 45%;
+        margin: auto;
+    }
+
+    #duas_colunas {
+        padding: 0;
+        margin: 1% auto;
+    }
+
+    footer {
+        margin: 3% 0 0 0;
     }
 
 }
